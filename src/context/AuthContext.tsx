@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { LoginResponse, User } from "../types/user";
-import axiosInstance from "../api/axiosInstance";
+import type { LoginResponse, User } from "../types/user";
+import axiosInstance from "@api/axiosInstance";
 
 const AuthContext = createContext<{
     user: User | undefined, 
