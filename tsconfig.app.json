@@ -21,16 +21,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
-
-    /* Paths */
-    "baseUrl": "./",
-    "paths": {
-      "@api/*": ["src/api/*"],
-      "@pages/*": ["src/pages/*"],
-      "@context/*": ["src/context/*"],
-      "@layouts/*": ["src/layouts/*"],
-    },
+    "noUncheckedSideEffectImports": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src"]
 }
